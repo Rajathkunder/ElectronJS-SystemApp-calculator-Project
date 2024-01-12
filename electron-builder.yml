@@ -1,0 +1,10 @@
+appId: com.rajath.yourapp
+productName: RajathHelloWorld
+directories:
+  output: build
+win:
+  target: nsis
+  asar: true
+files:
+  - "!node_modules/some-large-module/**/*"
+compression: maximum
